@@ -25,7 +25,7 @@ def return_item_data(item, region):
     response = urllib.request.urlopen(url1 + str(url2) + url3 + str(url4))
     data = json.loads(response.read())
     print(json.dumps(data, indent=4, sort_keys=True))
-
+    return json.dumps(data, indent=4, sort_keys=True)
 
 if __name__ == "__main__":
     item_to_find = input("Enter an item to find the ID: ")
