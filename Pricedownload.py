@@ -27,7 +27,4 @@ def return_item_data(item, region):
     print(json.dumps(data, indent=4, sort_keys=True))
     return json.dumps(data, indent=4, sort_keys=True)
 
-if __name__ == "__main__":
-    item_to_find = input("Enter an item to find the ID: ")
-    region = input("Enter Region to Search: ")
-    return_item_data(item_to_find, region)
+
