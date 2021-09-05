@@ -1,0 +1,20 @@
+High priority:
+-remove dependence of flask
+-Add savable data structures in order to implement statistic tracking
+    -implement statistic tracking
+
+Med priority:
+-rework command loop to include sub commands and a better help menu
+-Code cleanup
+
+Low Priority:
+-Add Gui
+
+Known bugs:
+-Logging out doesn't fully log you out.
+-Price Checker crashes if you enter an item or region that isn't valid
+
+
+
+git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
